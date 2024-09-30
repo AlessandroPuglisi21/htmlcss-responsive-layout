@@ -75,7 +75,7 @@ nav{
     flex-wrap: nowrap;
 }
 .col-8 img{
-    max-width: 100%;
+    width: 100%;
 }
 .description{
     background-color: white;
@@ -103,6 +103,12 @@ nav{
 .col-20 a{
     font-size: 12px;
     font-weight: bold;
+}
+/* ADV */
+
+.adv_img{
+    width: 100%;
+    padding-top: 50px  
 }
 /* TABLET VERSION */
 
@@ -157,4 +163,8 @@ nav{
 .col-20{
     padding: 4px 0px;
 }
+/* ADV */
+    .adv_img{
+        display: none;
+    }
 }
