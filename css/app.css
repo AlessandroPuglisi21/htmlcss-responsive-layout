@@ -30,7 +30,7 @@ nav{
 .logo_title{
     color:#FF9614 ;
     padding: 10px;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px rgb(156, 154, 154);
 }
 .row {
     display: flex;
@@ -58,6 +58,9 @@ nav{
 .col-4{
     width: calc((100*4)/12);
     flex: 0 0 33.33%;
+}
+.presentation_description .col-12{
+    display: flex;
 }
 .col-20{
     width: 20%;
@@ -126,6 +129,10 @@ hr{
 .presentation_description p{
     font-size: 12px;
 } 
+.col-12 p{
+    display: flex;
+    padding-left: 10px;
+}
 
 /* FOOTER */
 footer{
@@ -188,6 +195,11 @@ span{
         display: none;
     }
 
+    /* PRESENTATION */
+    .col-12 p{
+        display: flex;
+    }
+
     /* FOOTER */
     footer .row {
         display: block;
@@ -232,4 +244,9 @@ span{
     .adv_img{
         display: none;
     }
+/* PRESENTATION */
+    
+.presentation_description .col-12{
+    display: ruby;
+}
 }
