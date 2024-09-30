@@ -110,6 +110,54 @@ nav{
     width: 100%;
     padding-top: 50px  
 }
+
+/* PRESENTATION */
+.presentation_title h1{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+hr{
+    width: 30%;
+}
+.presentation_description{
+    padding-top: 20px;
+}
+.presentation_description p{
+    font-size: 12px;
+} 
+
+/* FOOTER */
+footer{
+    background-color: #7C69A4;
+    color: white;
+    font-size: 14px;
+    min-height: 50px;
+}
+footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+footer p, ul{
+    margin-top: 20px;
+}
+.row ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-right: 14px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+span{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+}
+
+
+/* --------------------------------------------- */
 /* TABLET VERSION */
 
 /* NAVBAR */
@@ -139,6 +187,23 @@ nav{
     .col-20 a{
         display: none;
     }
+
+    /* FOOTER */
+    footer .row {
+        display: block;
+        justify-content: center;
+}
+.row ul{
+    display: flex;
+    justify-content: center;
+}
+footer p, ul {
+    margin-top: 20px;
+    text-align: center;
+}
+span{
+    text-align: center;
+}
 }
 
 /* MOBILE VERSION */
